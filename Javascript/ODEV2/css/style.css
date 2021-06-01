@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bg-orange{
+    background-color: rgb(247,142,42);
+}
+
+.bg-grey-light{
+    background-color: rgb(230,233,237);
+}
+
+#ekleBtn:focus,
+#ekleBtn:hover{
+    background-color: rgb(199,206,213);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+  list-style-type: none; 
+  background-color: rgb(199,206,213);
+  padding: 10px 5px 10px 35px;
+  cursor: pointer; 
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(230,233,237);
+}
+
+
+.btn-close:hover{
+    background-color: white;
+}
+
+ul li.checked::before{
+    content: "\2713";
+    position: relative;
+    left: -10px;
+    margin-left: -9.5px;
+}
+
+ul li.checked{
+    background-color: rgb(231,123,132);
+    color: white;
+}
+
+
